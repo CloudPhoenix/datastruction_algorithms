@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int Search_Bin(int ST[], int len) {
+int Search_Repeat(int ST[], int len) {
   int low = 0;
   int high = len - 1;
 
@@ -18,7 +18,7 @@ int main()
   int ST[11] = {1,1,2,3,4,5,6,7,8,9,10};
 
   int len = 11;
-  int repeat = Search_Bin(ST, len);
+  int repeat = Search_Repeat(ST, len);
   printf("The repeat is %d.\n", repeat);
 
   return 1;
